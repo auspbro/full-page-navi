@@ -11,7 +11,7 @@
 <body>
     <div id="fullPage">
         <div class="section section1">
-            <h1>它，终于来了。</h1>
+            <h1>你，终于来了。</h1>
             <p>为了充分发挥体积小巧以及佩戴于手腕的优势，Apple Watch带来全新的科技和互动方式。它可以让你更快速便捷地完成一些早已习惯的事，也
                 <br/>可实现过去根本无法企及的新功能。因此，这将会是焕然一新的使用体验，也将实现与你前所未有的贴近。</p>
             <center>
@@ -21,7 +21,9 @@
             </center>
             <div class="search-box">
                 <center>
-                    <input class="form-control" type="search" id="search" value="" placeholder="hi" results="5">
+                    <form action="http://www.baidu.com/s" method="get" target="_blank">
+                        <input type="text" class="form-control" name="search" id="search" value="" baiduSug="2">
+                    </form>
                 </center>
             </div>
             <div class="submit-button">
@@ -29,9 +31,11 @@
                     <input type="submit" value="百度" id="baidu" button type="button" class="btn btn-primary">
                     <input type="submit" value="谷歌" id="google" button type="button" class="btn btn-primary">
                     <input type="submit" value="知乎" id="zhihu" button type="button" class="btn btn-primary">
+                    <input type="submit" value="淘宝" id="taobao" button type="button" class="btn btn-primary">
                     <input type="submit" value="微信" id="wechat" button type="button" class="btn btn-primary">
                     <input type="submit" value="微博" id="weibo" button type="button" class="btn btn-primary">
                     <input type="submit" value="豆瓣" id="douban" button type="button" class="btn btn-primary">
+                    <input type="submit" value="影视" id="movie" button type="button" class="btn btn-primary">
                     <input type="submit" value="源码" id="github" button type="button" class="btn btn-primary">
                 </center>
             </div>
@@ -108,6 +112,9 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script src="js/move.js"></script>
+<script src="js/submit-button.js"></script>
+<script charset="gbk" src="js/baidu.js"></script>
+
 <script>
     $('#fullPage').fullpage({
         verticalCentered: false,
