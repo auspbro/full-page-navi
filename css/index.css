@@ -159,16 +159,16 @@ body {
 
 #hplogo {
     position: relative;
-    top: -30px;
-    left: 580px;
+    top: 0px;
+    left: 0px;
     height: 10%;
     width: 10%;
 }
 
-.logo-position {
+.logo {
     position: relative;
     margin-left: 0;
-    margin-top: ;
+    margin-top: 50;
 }
 
 center {
