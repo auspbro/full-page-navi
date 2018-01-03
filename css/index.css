@@ -177,11 +177,11 @@ center {
 }
 
 .search-box {
-    border-radius: 5px;
-    border: 1px solid #5ea3d7;
-    width: 30%;
-    height: 30px;
-    outline: none;
+    margin-top: 30px;
+}
+
+.submit-button {
+    margin-top: 15px;
 }
 
 .btn {
@@ -274,7 +274,7 @@ center {
 }
 
 .form-control {
-	display: float: left;
+	display: float;
 	width: 40%;
 	height: 35px;
 	padding: 6px 12px;
